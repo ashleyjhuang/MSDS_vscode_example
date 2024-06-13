@@ -16,3 +16,5 @@ with open(filename, "r") as f:
     outname = input("Enter output ordering file: ")
     with open(outname, "w") as f:
         f.write(json.dumps(data))
+
+print("Github yay!")
